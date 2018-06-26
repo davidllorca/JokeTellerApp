@@ -30,4 +30,7 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+  <component name="UnicodeBrowser">
+    <option name="fontName" value="Source Code Pro" />
+  </component>
 </project>

@@ -5,5 +5,5 @@ package me.example.davidllorca.jokeprovider;
  */
 
 public class JokeProvider {
-    public String getJoke() {return "this is a awesome joke";}
+    public static String getJoke() {return "this is a awesome joke";}
 }

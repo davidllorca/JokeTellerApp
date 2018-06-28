@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements TellJoke {
     @Override
     public void tell(String joke) {
         Intent intent = new Intent(this, JokeDisplayerActivity.class);
-        intent.putExtra("jokeToDisplay", joke);
+        intent.putExtra(JokeDisplayerActivity.EXTRA_KEY_JOKE, joke);
         startActivity(intent);
     }
 }
